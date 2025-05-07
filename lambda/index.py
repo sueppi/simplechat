@@ -93,7 +93,7 @@ def lambda_handler(event, context):
         # )
         
         #APIの呼び出しを変更する
-        url = "https://55cf-34-125-184-95.ngrok-free.app/"
+        url = "https://8b5a-34-125-32-181.ngrok-free.app/docs" #"https://55cf-34-125-184-95.ngrok-free.app/"
         response = urllib.request(url, data=json.dumps(request_payload), headers="application/json")
 
         # レスポンスを解析
